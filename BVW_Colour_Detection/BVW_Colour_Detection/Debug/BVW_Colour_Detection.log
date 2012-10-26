@@ -1,0 +1,32 @@
+﻿Build started 10/24/2012 6:07:27 PM.
+     1>Project "C:\Users\craman\documents\visual studio 2010\Projects\BVW_Colour_Detection\BVW_Colour_Detection\BVW_Colour_Detection.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\BVW_Colour_Detection.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:\opencv\build\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\BVW_Colour_Detection.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+     1>c:\opencv\build\include\opencv2\flann\flann.hpp(233): warning C4996: 'cv::flann::Index_<T>': was declared deprecated
+                 c:\opencv\build\include\opencv2\flann\flann.hpp(278) : see reference to class template instantiation 'cv::flann::Index_<T>' being compiled
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:\opencv\build\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\BVW_Colour_Detection.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt BVW_Colour_Detection.cpp
+         BVW_Colour_Detection.cpp
+     1>c:\users\craman\documents\visual studio 2010\projects\bvw_colour_detection\bvw_colour_detection\bvw_colour_detection.cpp(80): warning C4101: 'iSendResult' : unreferenced local variable
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\craman\documents\visual studio 2010\Projects\BVW_Colour_Detection\Debug\BVW_Colour_Detection.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\opencv\build\x86\vc10\lib opencv_core231d.lib opencv_imgproc231d.lib opencv_highgui231d.lib opencv_ml231d.lib opencv_video231d.lib opencv_features2d231d.lib opencv_calib3d231d.lib opencv_objdetect231d.lib opencv_contrib231d.lib opencv_legacy231d.lib opencv_flann231d.lib Ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\BVW_Colour_Detection.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\craman\documents\visual studio 2010\Projects\BVW_Colour_Detection\Debug\BVW_Colour_Detection.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\craman\documents\visual studio 2010\Projects\BVW_Colour_Detection\Debug\BVW_Colour_Detection.lib" /MACHINE:X86 Debug\BVW_Colour_Detection.exe.embed.manifest.res
+         Debug\BVW_Colour_Detection.obj
+         Debug\stdafx.obj
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.1\Bin\mt.exe /nologo /verbose /out:"Debug\BVW_Colour_Detection.exe.embed.manifest" /manifest Debug\BVW_Colour_Detection.exe.intermediate.manifest
+         All outputs are up-to-date.
+       LinkEmbedManifest:
+         All outputs are up-to-date.
+         BVW_Colour_Detection.vcxproj -> C:\Users\craman\documents\visual studio 2010\Projects\BVW_Colour_Detection\Debug\BVW_Colour_Detection.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\BVW_Colour_Detection.unsuccessfulbuild".
+         Touching "Debug\BVW_Colour_Detection.lastbuildstate".
+     1>Done Building Project "C:\Users\craman\documents\visual studio 2010\Projects\BVW_Colour_Detection\BVW_Colour_Detection\BVW_Colour_Detection.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.37
